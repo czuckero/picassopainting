@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(62, 62, 149);
+}
+
+.square {
+    background-color: rgb(123, 123, 208);
+    height: 100px;
+    width: 100px;
+    grid-column: 5;
+    grid-row: 2;
+    z-index: 3;
+}
+
+.roundedsquare {
+    background-color: rgb(169, 169, 195);
+    height: 150px;
+    width: 150px;
+    border-radius: 30%;
+    grid-column: 4;
+    z-index: 1;
+}
+
+.triangle {
+    width: 0%;
+    height: 0px;
+    border-right: 5rem solid transparent;
+    border-left: 5rem solid transparent;
+    border-bottom: 150px solid rgb(192, 173, 248);
+    grid-column: 0;
+    grid-row: 0;
+    z-index: 4;
+}
+
+.curvedtriangle {
+    width: 0%;
+    height: 0px;
+    border-right: 5rem solid transparent;
+    border-left: 5rem solid transparent;
+    border-bottom: 150px solid rgb(99, 71, 182);
+    grid-column: 3;
+    grid-row: 0;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.circle {
+    background-color: rgb(17, 17, 72);
+    height: 100px;
+    width: 100px;
+    grid-column: 4;
+    grid-row: 2;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+}
+
+h1 {
+    color: rgb(219, 234, 247);
+}
+
+h3 {
+    color: rgb(219, 234, 247);
+}
+
+label {
+    color: rgb(219, 234, 247);
+}
